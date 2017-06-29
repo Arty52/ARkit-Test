@@ -15,6 +15,8 @@
 		623E02521F03BF5B00DC960D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 623E02501F03BF5B00DC960D /* LaunchScreen.storyboard */; };
 		623E025D1F03BF5B00DC960D /* ARkit_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623E025C1F03BF5B00DC960D /* ARkit_TestTests.swift */; };
 		623E02681F03BF5C00DC960D /* ARkit_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623E02671F03BF5C00DC960D /* ARkit_TestUITests.swift */; };
+		623E02761F048CD000DC960D /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 623E02751F048CD000DC960D /* art.scnassets */; };
+		623E02781F048D9500DC960D /* Spaceship.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623E02771F048D9500DC960D /* Spaceship.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		623E02631F03BF5C00DC960D /* ARkit TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ARkit TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		623E02671F03BF5C00DC960D /* ARkit_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARkit_TestUITests.swift; sourceTree = "<group>"; };
 		623E02691F03BF5C00DC960D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		623E02751F048CD000DC960D /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; name = art.scnassets; path = ../../../Downloads/art.scnassets; sourceTree = "<group>"; };
+		623E02771F048D9500DC960D /* Spaceship.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spaceship.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +107,11 @@
 				623E02461F03BF5B00DC960D /* ViewController.swift */,
 				623E02481F03BF5B00DC960D /* Main.storyboard */,
 				623E024E1F03BF5B00DC960D /* Assets.xcassets */,
+				623E02751F048CD000DC960D /* art.scnassets */,
 				623E02501F03BF5B00DC960D /* LaunchScreen.storyboard */,
 				623E02531F03BF5B00DC960D /* Info.plist */,
 				623E024B1F03BF5B00DC960D /* ARkit_Test.xcdatamodeld */,
+				623E02771F048D9500DC960D /* Spaceship.swift */,
 			);
 			path = "ARkit Test";
 			sourceTree = "<group>";
@@ -233,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				623E02521F03BF5B00DC960D /* LaunchScreen.storyboard in Resources */,
+				623E02761F048CD000DC960D /* art.scnassets in Resources */,
 				623E024F1F03BF5B00DC960D /* Assets.xcassets in Resources */,
 				623E024A1F03BF5B00DC960D /* Main.storyboard in Resources */,
 			);
@@ -261,6 +268,7 @@
 			files = (
 				623E024D1F03BF5B00DC960D /* ARkit_Test.xcdatamodeld in Sources */,
 				623E02471F03BF5B00DC960D /* ViewController.swift in Sources */,
+				623E02781F048D9500DC960D /* Spaceship.swift in Sources */,
 				623E02451F03BF5B00DC960D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
