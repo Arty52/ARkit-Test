@@ -7,16 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		623E02451F03BF5B00DC960D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623E02441F03BF5B00DC960D /* AppDelegate.swift */; };
-		623E02471F03BF5B00DC960D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623E02461F03BF5B00DC960D /* ViewController.swift */; };
-		623E024A1F03BF5B00DC960D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 623E02481F03BF5B00DC960D /* Main.storyboard */; };
-		623E024D1F03BF5B00DC960D /* ARkit_Test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 623E024B1F03BF5B00DC960D /* ARkit_Test.xcdatamodeld */; };
-		623E024F1F03BF5B00DC960D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 623E024E1F03BF5B00DC960D /* Assets.xcassets */; };
-		623E02521F03BF5B00DC960D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 623E02501F03BF5B00DC960D /* LaunchScreen.storyboard */; };
 		623E025D1F03BF5B00DC960D /* ARkit_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623E025C1F03BF5B00DC960D /* ARkit_TestTests.swift */; };
 		623E02681F03BF5C00DC960D /* ARkit_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623E02671F03BF5C00DC960D /* ARkit_TestUITests.swift */; };
-		623E02761F048CD000DC960D /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 623E02751F048CD000DC960D /* art.scnassets */; };
-		623E02781F048D9500DC960D /* Spaceship.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623E02771F048D9500DC960D /* Spaceship.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,21 +30,21 @@
 
 /* Begin PBXFileReference section */
 		623E02411F03BF5B00DC960D /* ARkit Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ARkit Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		623E02441F03BF5B00DC960D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		623E02461F03BF5B00DC960D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		623E02491F03BF5B00DC960D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		623E024C1F03BF5B00DC960D /* ARkit_Test.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ARkit_Test.xcdatamodel; sourceTree = "<group>"; };
-		623E024E1F03BF5B00DC960D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		623E02511F03BF5B00DC960D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		623E02531F03BF5B00DC960D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		623E02581F03BF5B00DC960D /* ARkit TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ARkit TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		623E025C1F03BF5B00DC960D /* ARkit_TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARkit_TestTests.swift; sourceTree = "<group>"; };
 		623E025E1F03BF5B00DC960D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		623E02631F03BF5C00DC960D /* ARkit TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ARkit TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		623E02671F03BF5C00DC960D /* ARkit_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARkit_TestUITests.swift; sourceTree = "<group>"; };
 		623E02691F03BF5C00DC960D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		623E02751F048CD000DC960D /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; name = art.scnassets; path = ../../../Downloads/art.scnassets; sourceTree = "<group>"; };
-		623E02771F048D9500DC960D /* Spaceship.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spaceship.swift; sourceTree = "<group>"; };
+		62A027091F04A0D3004380AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		62A0270B1F04A0D3004380AE /* ARkit_Test.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ARkit_Test.xcdatamodel; sourceTree = "<group>"; };
+		62A0270C1F04A0D3004380AE /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		62A0270D1F04A0D3004380AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		62A0270F1F04A0D3004380AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		62A027111F04A0D3004380AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		62A027121F04A0D3004380AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62A027131F04A0D3004380AE /* Spaceship.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spaceship.swift; sourceTree = "<group>"; };
+		62A027141F04A0D3004380AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +75,7 @@
 		623E02381F03BF5B00DC960D = {
 			isa = PBXGroup;
 			children = (
-				623E02431F03BF5B00DC960D /* ARkit Test */,
+				62A027081F04A0D3004380AE /* ARkit Test */,
 				623E025B1F03BF5B00DC960D /* ARkit TestTests */,
 				623E02661F03BF5C00DC960D /* ARkit TestUITests */,
 				623E02421F03BF5B00DC960D /* Products */,
@@ -98,22 +90,6 @@
 				623E02631F03BF5C00DC960D /* ARkit TestUITests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		623E02431F03BF5B00DC960D /* ARkit Test */ = {
-			isa = PBXGroup;
-			children = (
-				623E02441F03BF5B00DC960D /* AppDelegate.swift */,
-				623E02461F03BF5B00DC960D /* ViewController.swift */,
-				623E02481F03BF5B00DC960D /* Main.storyboard */,
-				623E024E1F03BF5B00DC960D /* Assets.xcassets */,
-				623E02751F048CD000DC960D /* art.scnassets */,
-				623E02501F03BF5B00DC960D /* LaunchScreen.storyboard */,
-				623E02531F03BF5B00DC960D /* Info.plist */,
-				623E024B1F03BF5B00DC960D /* ARkit_Test.xcdatamodeld */,
-				623E02771F048D9500DC960D /* Spaceship.swift */,
-			);
-			path = "ARkit Test";
 			sourceTree = "<group>";
 		};
 		623E025B1F03BF5B00DC960D /* ARkit TestTests */ = {
@@ -132,6 +108,22 @@
 				623E02691F03BF5C00DC960D /* Info.plist */,
 			);
 			path = "ARkit TestUITests";
+			sourceTree = "<group>";
+		};
+		62A027081F04A0D3004380AE /* ARkit Test */ = {
+			isa = PBXGroup;
+			children = (
+				62A027091F04A0D3004380AE /* AppDelegate.swift */,
+				62A0270A1F04A0D3004380AE /* ARkit_Test.xcdatamodeld */,
+				62A0270C1F04A0D3004380AE /* art.scnassets */,
+				62A0270D1F04A0D3004380AE /* Assets.xcassets */,
+				62A0270E1F04A0D3004380AE /* LaunchScreen.storyboard */,
+				62A027101F04A0D3004380AE /* Main.storyboard */,
+				62A027121F04A0D3004380AE /* Info.plist */,
+				62A027131F04A0D3004380AE /* Spaceship.swift */,
+				62A027141F04A0D3004380AE /* ViewController.swift */,
+			);
+			path = "ARkit Test";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,10 +230,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				623E02521F03BF5B00DC960D /* LaunchScreen.storyboard in Resources */,
-				623E02761F048CD000DC960D /* art.scnassets in Resources */,
-				623E024F1F03BF5B00DC960D /* Assets.xcassets in Resources */,
-				623E024A1F03BF5B00DC960D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,10 +254,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				623E024D1F03BF5B00DC960D /* ARkit_Test.xcdatamodeld in Sources */,
-				623E02471F03BF5B00DC960D /* ViewController.swift in Sources */,
-				623E02781F048D9500DC960D /* Spaceship.swift in Sources */,
-				623E02451F03BF5B00DC960D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,20 +289,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		623E02481F03BF5B00DC960D /* Main.storyboard */ = {
+		62A0270E1F04A0D3004380AE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				623E02491F03BF5B00DC960D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		623E02501F03BF5B00DC960D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				623E02511F03BF5B00DC960D /* Base */,
+				62A0270F1F04A0D3004380AE /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		62A027101F04A0D3004380AE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62A027111F04A0D3004380AE /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -458,7 +442,6 @@
 		623E02701F03BF5C00DC960D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 6LL9D69MVM;
 				INFOPLIST_FILE = "ARkit TestTests/Info.plist";
@@ -474,7 +457,6 @@
 		623E02711F03BF5C00DC960D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 6LL9D69MVM;
 				INFOPLIST_FILE = "ARkit TestTests/Info.plist";
@@ -490,7 +472,6 @@
 		623E02731F03BF5C00DC960D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 6LL9D69MVM;
 				INFOPLIST_FILE = "ARkit TestUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -505,7 +486,6 @@
 		623E02741F03BF5C00DC960D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 6LL9D69MVM;
 				INFOPLIST_FILE = "ARkit TestUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -536,6 +516,7 @@
 				623E026E1F03BF5C00DC960D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		623E026F1F03BF5C00DC960D /* Build configuration list for PBXNativeTarget "ARkit TestTests" */ = {
 			isa = XCConfigurationList;
@@ -544,6 +525,7 @@
 				623E02711F03BF5C00DC960D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		623E02721F03BF5C00DC960D /* Build configuration list for PBXNativeTarget "ARkit TestUITests" */ = {
 			isa = XCConfigurationList;
@@ -552,16 +534,17 @@
 				623E02741F03BF5C00DC960D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		623E024B1F03BF5B00DC960D /* ARkit_Test.xcdatamodeld */ = {
+		62A0270A1F04A0D3004380AE /* ARkit_Test.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				623E024C1F03BF5B00DC960D /* ARkit_Test.xcdatamodel */,
+				62A0270B1F04A0D3004380AE /* ARkit_Test.xcdatamodel */,
 			);
-			currentVersion = 623E024C1F03BF5B00DC960D /* ARkit_Test.xcdatamodel */;
+			currentVersion = 62A0270B1F04A0D3004380AE /* ARkit_Test.xcdatamodel */;
 			path = ARkit_Test.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
